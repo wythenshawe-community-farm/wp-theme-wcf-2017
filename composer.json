@@ -1,0 +1,16 @@
+{
+    "name": "wythenshawe-community-farm/wp-theme-wcf-2017",
+    "description": "Wythenshawe Community Farm 2017 WordPress theme",
+    "type": "wpackagist-theme",
+    "licence": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Toby Griffiths",
+            "email": "toby@cubicmushroom.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "johnpbloch/wordpress-core": "^4.8"
+    }
+}
