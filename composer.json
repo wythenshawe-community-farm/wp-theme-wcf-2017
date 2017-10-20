@@ -10,7 +10,14 @@
         }
     ],
     "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:wythenshawe-community-farm/wp-plugin-our-animals.git"
+        }
+    ],
     "require": {
-        "johnpbloch/wordpress-core": "^4.8"
+        "johnpbloch/wordpress-core": "^4.8",
+        "wythenshawe-community-farm/wp-plugin-our-animals":"dev-master"
     }
 }

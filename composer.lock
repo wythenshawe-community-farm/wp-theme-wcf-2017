@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3947b15a7d72a0adf5a75bfcf8c916af",
+    "content-hash": "a4c5f2cc60064fd87475fbe328a070fc",
     "packages": [
         {
             "name": "johnpbloch/wordpress-core",
@@ -45,12 +45,48 @@
                 "wordpress"
             ],
             "time": "2017-09-19T22:27:11+00:00"
+        },
+        {
+            "name": "wythenshawe-community-farm/wp-plugin-our-animals",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wythenshawe-community-farm/wp-plugin-our-animals.git",
+                "reference": "82a29c20e486b07fd4ab6d425c2f0ad91158b241"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wythenshawe-community-farm/wp-plugin-our-animals/zipball/82a29c20e486b07fd4ab6d425c2f0ad91158b241",
+                "reference": "82a29c20e486b07fd4ab6d425c2f0ad91158b241",
+                "shasum": ""
+            },
+            "require": {
+                "johnpbloch/wordpress-core": "^4.8"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Toby Griffiths",
+                    "email": "toby@cubicmushroom.co.uk"
+                }
+            ],
+            "description": "Enables support for Our Animals",
+            "support": {
+                "source": "https://github.com/wythenshawe-community-farm/wp-plugin-our-animals/tree/master",
+                "issues": "https://github.com/wythenshawe-community-farm/wp-plugin-our-animals/issues"
+            },
+            "time": "2017-10-20 08:12:25"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wythenshawe-community-farm/wp-plugin-our-animals": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
