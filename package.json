@@ -2,7 +2,7 @@
   "name": "wcf-wp-theme-wcf-2017",
   "version": "1.0.0",
   "description": "Wythenshawe Community Farm 2017 WordPress theme",
-  "main": "entry.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
