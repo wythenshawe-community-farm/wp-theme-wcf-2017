@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wythenshawe-community-farm/wp-theme-wcf-2017/issues"
   },
-  "homepage": "https://github.com/wythenshawe-community-farm/wp-theme-wcf-2017#readme"
+  "homepage": "https://github.com/wythenshawe-community-farm/wp-theme-wcf-2017#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
 }
