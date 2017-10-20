@@ -6,6 +6,8 @@
 <body>
 
 
+<a class="btn btn-primary">Test</a>;
+
 <?php wp_footer(); ?>
 </body>
 </html>
