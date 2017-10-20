@@ -42,42 +42,35 @@ function wcf_2017_setup() {
 	$GLOBALS['content_width'] = 525;
 
 	// This theme uses wp_nav_menu() in two locations.
-	register_nav_menus( array(
+	register_nav_menus( [
 		'top'    => __( 'Top Menu', 'wcf_2017' ),
 		'social' => __( 'Social Links Menu', 'wcf_2017' ),
-	) );
+	] );
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
 	 * to output valid HTML5.
 	 */
-	add_theme_support( 'html5', array(
-		'comment-form',
-		'comment-list',
-		'gallery',
-		'caption',
-	) );
+	add_theme_support( 'html5',
+		[
+			'comment-form',
+			'comment-list',
+			'gallery',
+			'caption',
+		] );
 
 	/*
 	 * Enable support for Post Formats.
 	 *
 	 * See: https://codex.wordpress.org/Post_Formats
 	 */
-	add_theme_support( 'post-formats', array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
-		'gallery',
-		'audio',
-	) );
+	add_theme_support( 'post-formats', [ 'aside', 'image', 'video', 'quote', 'link', 'gallery', 'audio' ] );
 
 	// Add theme support for selective refresh for widgets.
 	add_theme_support( 'customize-selective-refresh-widgets' );
 }
-add_action( 'after_setup_theme', 'wcf_2017_setup' );
 
+add_action( 'after_setup_theme', 'wcf_2017_setup' );
 
 
 /**
@@ -90,4 +83,5 @@ add_action( 'after_setup_theme', 'wcf_2017_setup' );
 function wcf_2017_javascript_detection() {
 	echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>\n";
 }
+
 add_action( 'wp_head', 'wcf_2017_javascript_detection', 0 );
