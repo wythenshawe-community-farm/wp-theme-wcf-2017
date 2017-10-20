@@ -85,3 +85,19 @@ function wcf_2017_javascript_detection() {
 }
 
 add_action( 'wp_head', 'wcf_2017_javascript_detection', 0 );
+
+
+/**
+ * Enqueue scripts and styles.
+ */
+function wcf_2017_scripts() {
+
+	// Theme stylesheet.
+	wp_enqueue_script( 'wcf-2017-style', get_theme_file_uri( '/dist/bundle.js' ), [], false, true );
+
+	// Load the html5 shiv.
+	wp_enqueue_script( 'html5', get_theme_file_uri( '/src/js/html5.js' ), [], '3.7.3' );
+	wp_script_add_data( 'html5', 'conditional', 'lt IE 9' );
+}
+
+add_action( 'wp_enqueue_scripts', 'wcf_2017_scripts' );

@@ -1,7 +1,7 @@
-<html>
+<html class="no-js">
 <head>
     <title>Getting Started</title>
-    <script src="https://unpkg.com/lodash@4.16.6"></script>
+	<?php wp_head(); ?>
 </head>
 <body>
 
