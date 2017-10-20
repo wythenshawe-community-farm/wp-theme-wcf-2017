@@ -18,5 +18,8 @@
   "homepage": "https://github.com/wythenshawe-community-farm/wp-theme-wcf-2017#readme",
   "dependencies": {
     "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
   }
 }
