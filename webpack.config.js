@@ -7,15 +7,23 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     module: {
-        rules: [{
-            test: /\.s?css$/,
-            use: [{
-                loader: "style-loader" // creates style nodes from JS strings
-            }, {
-                loader: "css-loader" // translates CSS into CommonJS
-            }, {
-                loader: "sass-loader" // compiles Sass to CSS
-            }]
-        }]
+        rules: [
+            {
+                test: /\.s?css$/,
+                use: [
+                    {
+                        loader: "style-loader" // creates style nodes from JS strings
+                    }, {
+                        loader: "css-loader" // translates CSS into CommonJS
+                    }, {
+                        loader: "sass-loader" // compiles Sass to CSS
+                    }
+                ]
+            },
+            {
+                test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+                loader: 'url-loader?limit=100000'
+            }
+        ]
     }
 };
