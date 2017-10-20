@@ -18,6 +18,7 @@
         }
     ],
     "require": {
+        "twbs/bootstrap-sass": "^3.3",
         "johnpbloch/wordpress-core": "^4.8",
         "wythenshawe-community-farm/wp-plugin-our-animals":"dev-master"
     }
