@@ -1,1 +1,1 @@
-import "js/skip-link-focus-fix"
+import "./js/skip-link-focus-fix"
