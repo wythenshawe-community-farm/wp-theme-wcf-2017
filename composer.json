@@ -2,7 +2,7 @@
     "name": "wythenshawe-community-farm/wp-theme-wcf-2017",
     "description": "Wythenshawe Community Farm 2017 WordPress theme",
     "type": "wordpress-theme",
-    "licence": "GPL-3.0+",
+    "license": "GPL-3.0+",
     "authors": [
         {
             "name": "Toby Griffiths",
