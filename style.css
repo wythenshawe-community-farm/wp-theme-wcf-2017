@@ -9,3 +9,11 @@ License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: wcf-2017
 */
+
+/*
+DO NOT ADD CSS HERE!
+
+All CSS is loaded using WebPack to prepare the CSS/JS/IMG assets
+
+See ./README.md file for details on how to compile the source
+ */
