@@ -1,0 +1,19 @@
+{
+  "name": "wcf-wp-theme-wcf-2017",
+  "version": "1.0.0",
+  "description": "Wythenshawe Community Farm 2017 WordPress theme",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wythenshawe-community-farm/wp-theme-wcf-2017.git"
+  },
+  "author": "Toby Griffiths",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/wythenshawe-community-farm/wp-theme-wcf-2017/issues"
+  },
+  "homepage": "https://github.com/wythenshawe-community-farm/wp-theme-wcf-2017#readme"
+}
